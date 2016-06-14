@@ -1,0 +1,264 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-06-10T16:53:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/914192223",
+      "properties": {
+        "@id": "node/914192223",
+        "amenity": "bar",
+        "name": "Corey's Bar & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3124716,
+          44.0584738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/914192224",
+      "properties": {
+        "@id": "node/914192224",
+        "amenity": "bar",
+        "name": "D & D Bar & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3128142,
+          44.0587564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155902",
+      "properties": {
+        "@id": "node/3818155902",
+        "amenity": "bar",
+        "name": "JC's Bar & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3146299,
+          44.0579414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155903",
+      "properties": {
+        "@id": "node/3818155903",
+        "amenity": "bar",
+        "name": "Wall Street Bar & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3143309,
+          44.0594342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155904",
+      "properties": {
+        "@id": "node/3818155904",
+        "amenity": "bar",
+        "name": "West Side Tavern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3262063,
+          44.0567737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155905",
+      "properties": {
+        "@id": "node/3818155905",
+        "amenity": "bar",
+        "name": "Cascade West Grub & Alehouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3315936,
+          44.0504476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155906",
+      "properties": {
+        "@id": "node/3818155906",
+        "amenity": "bar",
+        "name": "Sidelines Sportsbar & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3128972,
+          44.0599272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155907",
+      "properties": {
+        "@id": "node/3818155907",
+        "amenity": "bar",
+        "name": "Maverick's Country Bar and Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2949653,
+          44.0850845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155908",
+      "properties": {
+        "@id": "node/3818155908",
+        "amenity": "bar",
+        "name": "Northside Bar & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2948017,
+          44.0830364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155909",
+      "properties": {
+        "@id": "node/3818155909",
+        "amenity": "bar",
+        "name": "Mountain's Edge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3146339,
+          44.026817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155910",
+      "properties": {
+        "@id": "node/3818155910",
+        "amenity": "bar",
+        "name": "Southside Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3154923,
+          44.0208507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155911",
+      "properties": {
+        "@id": "node/3818155911",
+        "amenity": "bar",
+        "name": "Timber's Bar & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2661155,
+          44.0534828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155912",
+      "properties": {
+        "@id": "node/3818155912",
+        "amenity": "bar",
+        "name": "Third Street Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3023387,
+          44.0472238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155913",
+      "properties": {
+        "@id": "node/3818155913",
+        "amenity": "bar",
+        "name": "Bamboo Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3020168,
+          44.04449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3818155914",
+      "properties": {
+        "@id": "node/3818155914",
+        "amenity": "bar",
+        "name": "Kelly D's Sportsbar & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3025479,
+          44.0405067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4234710018",
+      "properties": {
+        "@id": "node/4234710018",
+        "amenity": "bar",
+        "name": "Reed Pub Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2918967,
+          44.0374485
+        ]
+      }
+    }
+  ]
+}
