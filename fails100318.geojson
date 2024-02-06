@@ -1,0 +1,277 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-10-04T01:44:04Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/914192223",
+        "addr:city": "Bend",
+        "addr:housenumber": "928",
+        "addr:postcode": "97703",
+        "addr:state": "OR",
+        "addr:street": "Northwest Bond Street",
+        "amenity": "bar",
+        "facebook": "http://www.facebook.com/Coreys-Bar-and-Grill-204814702888075/",
+        "name": "Corey's Bar & Grill",
+        "opening_hours": "00:00-1:30,07:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3125924,
+          44.0584999
+        ]
+      },
+      "id": "node/914192223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3818155903",
+        "addr:city": "Bend",
+        "addr:housenumber": "917",
+        "addr:postcode": "97703",
+        "addr:state": "OR",
+        "addr:street": "Northwest Wall Street",
+        "amenity": "bar",
+        "name": "Wall Street Bar & Grill",
+        "phone": "+1-541-385-7098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3143966,
+          44.0594525
+        ]
+      },
+      "id": "node/3818155903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3818155906",
+        "addr:city": "Bend",
+        "addr:housenumber": "1020",
+        "addr:postcode": "97703",
+        "addr:state": "OR",
+        "addr:street": "Northwest Wall Street",
+        "addr:unit": "A",
+        "amenity": "bar",
+        "name": "Sidelines Sportsbar & Grill",
+        "opening_hours": "Mo 08:00-24:00; Tu-Sa 00:00-01:00,08:00-24:00; Su 00:00-01:00,08:00-23:00",
+        "phone": "+1-541-385-8898",
+        "website": "http://sidelines-bend.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3129401,
+          44.0599118
+        ]
+      },
+      "id": "node/3818155906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3818155914",
+        "addr:city": "Bend",
+        "addr:housenumber": "1012",
+        "addr:postcode": "97702",
+        "addr:state": "OR",
+        "addr:street": "Southeast Cleveland Square Loop",
+        "addr:unit": "2",
+        "amenity": "bar",
+        "cuisine": "irish",
+        "happy_hours": "Mo-Fr 15:30-18:30,21:00-24:00; Sa,Su 00:00-01:00,21:00-24:00",
+        "name": "Kelly D's",
+        "opening_hours": "Mo-Fr 10:00-24:00; Sa,Su 00:00-01:00,10:00-24:00",
+        "phone": "+1-541-389-5625",
+        "website": "http://kellyds.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3025479,
+          44.0405067
+        ]
+      },
+      "id": "node/3818155914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4234710018",
+        "amenity": "bar",
+        "name": "Reed Pub Company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2918967,
+          44.0374485
+        ]
+      },
+      "id": "node/4234710018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337350513",
+        "addr:city": "Bend",
+        "addr:housenumber": "805",
+        "addr:postcode": "97703",
+        "addr:state": "OR",
+        "addr:street": "Northwest Wall Street",
+        "amenity": "bar",
+        "min_age": "21",
+        "name": "Velvet",
+        "opening_hours": "17:00+",
+        "phone": "+1-541-728-0303",
+        "website": "http://www.velvetbend.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3151466,
+          44.0583119
+        ]
+      },
+      "id": "node/4337350513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675691448",
+        "amenity": "bar",
+        "name": "Fireside Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3142668,
+          44.0567342
+        ]
+      },
+      "id": "node/4675691448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675692044",
+        "addr:city": "Bend",
+        "addr:housenumber": "700",
+        "addr:postcode": "97703",
+        "addr:state": "OR",
+        "addr:street": "Northwest Bond Street",
+        "amenity": "bar",
+        "name": "Broom Closet",
+        "opening_hours": "15:00-23:00",
+        "operator": "McMenamins",
+        "website": "http://www.mcmenamins.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3127815,
+          44.0560667
+        ]
+      },
+      "id": "node/4675692044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5008730610",
+        "addr:city": "Bend",
+        "addr:housenumber": "1020",
+        "addr:postcode": "97703",
+        "addr:state": "OR",
+        "addr:street": "Northwest Wall Street",
+        "addr:unit": "B",
+        "amenity": "bar",
+        "name": "Duda's",
+        "opening_hours": "Mo-Fr 12:00-24:00; Sa,Su 00:00-02:00,12:00-24:00",
+        "phone": "+1-541-213-2321",
+        "website": "http://www.dudasbilliardsbar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3128805,
+          44.0599593
+        ]
+      },
+      "id": "node/5008730610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5021241344",
+        "addr:city": "Bend",
+        "addr:housenumber": "1024",
+        "addr:postcode": "97703",
+        "addr:state": "OR",
+        "addr:street": "Northwest Bond Street",
+        "addr:unit": "102",
+        "amenity": "bar",
+        "name": "Crater Lake Spirits",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-19:00",
+        "operator": "Bendistillery",
+        "website": "http://www.craterlakespirits.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3117352,
+          44.0593001
+        ]
+      },
+      "id": "node/5021241344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5025120822",
+        "addr:city": "Bend",
+        "addr:housenumber": "550",
+        "addr:postcode": "97703",
+        "addr:state": "OR",
+        "addr:street": "Northwest Franklin Avenue",
+        "addr:unit": "118",
+        "amenity": "bar",
+        "facebook": "http://www.facebook.com/thestihlwhiskeybar/",
+        "name": "The Stihl Whiskey Bar",
+        "opening_hours": "Mo-Fr 05:00-24:00; Sa 00:00-01:00,05:00-24:00; Su 00:00-01:00,05:00-23:00",
+        "phone": "+1-541-383-8182"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3134974,
+          44.0572935
+        ]
+      },
+      "id": "node/5025120822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5885669586",
+        "amenity": "bar",
+        "name": "River Pig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3153309,
+          44.0512952
+        ]
+      },
+      "id": "node/5885669586"
+    }
+  ]
+}

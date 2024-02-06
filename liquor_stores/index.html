@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Liquor store analysis</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.js'></script>
+    <script src='https://npmcdn.com/@turf/turf@3.5.1/turf.min.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'>
+</div>
+<script>
+
+var liquor = {
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+
+"features": [
+{ "type": "Feature", "properties": { "name": "Giorgio's West Bend, Wines, Brews, Spirits", "address": "155 SW Century Dr #100", "latitude": 44.049625, "longitude": -121.331942, "name_1": "155 SW Century Dr #100", "desc": "155 SW Century Dr, Bend, OR 97702", "color": null, "source": "Bing Maps", "precision": "address" }, "geometry": { "type": "Point", "coordinates": [ -121.3319416, 44.0496249 ] } },
+{ "type": "Feature", "properties": { "name": "Bend-South Liquor Store", "address": " 61153 S Hwy 97", "latitude": 44.020200, "longitude": -121.316733, "name_1": "61153 S Hwy 97", "desc": "61153 S Highway 97, Bend, OR 97702", "color": null, "source": "Bing Maps", "precision": "address" }, "geometry": { "type": "Point", "coordinates": [ -121.3167335, 44.0202004 ] } },
+{ "type": "Feature", "properties": { "name": "North Bend Liquor Store", "address": " 2000 NE 3rd St #108", "latitude": 44.302866, "longitude": -120.822311, "name_1": "2000 NE 3rd St #108", "desc": "2000 NE 3rd St, Prineville, OR 97754", "color": null, "source": "Bing Maps", "precision": "address" }, "geometry": { "type": "Point", "coordinates": [ -120.8223105, 44.3028664 ] } },
+{ "type": "Feature", "properties": { "name": "East Bend Liquor", "address": " 2220 US-20 #1", "latitude": 44.632997, "longitude": -124.012546, "name_1": "2220 US-20 #1", "desc": "2220 US-20, Newport, OR 97365", "color": null, "source": "Bing Maps", "precision": "address" }, "geometry": { "type": "Point", "coordinates": [ -124.012546, 44.6329974 ] } }
+]
+};
+
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWp6ZWlnZXJ0IiwiYSI6IldLdVhKN1UifQ.43CCALwNLBzVybtPFvcaJQ';
+// This is all pretty shamelessly copied from the GL JS docs site:
+// https://www.mapbox.com/mapbox-gl-js/example/3d-extrusion-floorplan/
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [-121.3, 44.05],
+    zoom: 12,
+    // pitch: 40,
+    // bearing: 20
+});
+map.on('load', function() {
+
+	
+    // map.addSource("buildings", {
+    //     'type': 'geojson',
+    //     'data': 'buildings_sample.geojson'
+    // });
+    // map.addLayer({
+    //     'id': 'buildings',
+    //     'type': 'fill',
+    //     'source': 'buildings',
+    //     'paint': {
+    //         // See the Mapbox Style Spec for details on property functions
+    //         // https://www.mapbox.com/mapbox-gl-style-spec/#types-function
+    //         'fill-color': '#666',
+    //         'fill-extrude-height': {
+    //             // Get fill-extrude-height from the source 'buildheigh' property.
+    //             'property': 'buildheigh',
+    //             'type': 'identity'
+    //         },
+    //         'fill-extrude-base': 0,
+    //         'fill-opacity': 0.5
+    //     }
+    // });
+	map.addControl(new mapboxgl.NavigationControl({position: 'top-left'}));
+});
+</script>
+
+</body>
+</html>
